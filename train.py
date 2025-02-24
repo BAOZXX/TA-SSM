@@ -6,7 +6,7 @@ from torch.utils.data import DataLoader
 import sys
 
 sys.path.append('/hy-tmp/baosichen/mamba')
-from Vim3D import VisionMamba3D
+from TA-SSM import VisionMamba3D
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 from dataset1 import MRIDataset
 
