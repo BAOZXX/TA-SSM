@@ -5,8 +5,8 @@ from functools import partial
 from torch import Tensor
 from typing import Optional
 from new.rope import *
-from SegMamba.mamba.mamba_ssm.modules.mamba_simple import Mamba
-from SegMamba.mamba.mamba_ssm.ops.triton.layernorm import RMSNorm, layer_norm_fn, rms_norm_fn
+from Mamba.mamba.mamba_ssm.modules.mamba_simple import Mamba
+from Mamba.mamba.mamba_ssm.ops.triton.layernorm import RMSNorm, layer_norm_fn, rms_norm_fn
 from new.rope import VisionRotaryEmbeddingFast
 
 
