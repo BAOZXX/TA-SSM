@@ -184,8 +184,8 @@ task = 1
 # img_path = "/hy-tmp/baosichen/data/ADvsCN_300vs300"
 # ran_datasplit(task, img_path)
 
-train_img_path = "/hy-tmp/baosichen/data/ADvsCN/train"
-test_img_path = "/hy-tmp/baosichen/data/ADvsCN/test"
+train_img_path = "/data/ADvsCN/train"
+test_img_path = "/data/ADvsCN/test"
 
 datasplit(task, train_img_path, test_img_path)
 
